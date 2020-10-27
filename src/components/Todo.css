@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+body, html {
+    height: 100%;
+    background-color: #f8f4f1;
+    
+}
+
+h1, h2, h3, p, button{
+   font-family: 'Bad Script', cursive; 
+}
+
+
+.appBody{
+    background-image: url('../assets/max-saeling-_CGxNOLM1gQ-unsplash.jpg');
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 96%;
+    margin-left: 2%;
+    height: 96vh;
+    /* display: flex;
+    flex-flow: column wrap; */
+}
+.appItems {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20% 10%;
+    text-align: center;
+}
+.appItems h2 {
+    color: #f8f4f1;
+    font-size: 4rem;
+}
+.todo {
+    color: #5a2d19;
+    font-size: 1.8rem;
+}
+
+.todo.completed {
+    text-decoration: line-through;
+}
+
+.addTodoForm {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid purple; */
+}
+.addTodoForm button {
+    border-radius: 5px;
+    background-color: #5a2d19;
+    color: #f8f4f1;
+    border: none;
+    margin: 1% 0;
+}
